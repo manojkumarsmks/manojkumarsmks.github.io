@@ -103,34 +103,6 @@ div.name{
    color: #666
 }
 
-.timeline-content-left  h3 {
-   margin-top: 5px;
-   margin-bottom: 5px;
-   font-size: 25px;
-   font-weight: 500
-}
-
-.timeline-content-left span {
-   font-size: 15px;
-   color: #a4a4a4;
-}
-
-.timeline-content-left p span {
-	font-weight: 600;
-	color: #777
-}
-
-.timeline-content-left p {
-   font-size: 14px;
-   line-height: 1.5em;
-   word-spacing: 1px;
-   color: #888;
-   line-height:normal;
-   text-align:left;
-}
-
-
-
 .timeline-content h3 {
    margin-top: 5px;
    margin-bottom: 5px;
@@ -156,6 +128,7 @@ div.name{
    line-height:normal;
 }
 
+
 @media screen and (max-width: 768px) {
    .container:before {
       left: 8px;
@@ -171,8 +144,14 @@ div.name{
 
    .timeline-block-left {
       float: none;
-      direction: ltr;
    }
 }
 
 
+#left-paragraph {
+	text-align: left;
+}
+
+#left-day {
+	text-align: left;
+}
